@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  learning project
+//  Magic Ball app
 //
-//  Created by fatma on 7/11/19.
+//  Created by fatma on 7/26/19.
 //  Copyright © 2019 fatma. All rights reserved.
 //
 
@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "learning_project")
+        let container = NSPersistentContainer(name: "Magic_Ball_app")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
